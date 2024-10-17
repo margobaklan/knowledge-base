@@ -1,0 +1,33 @@
+Auto_part
+├── Engine 
+├── Wheel 
+└── Light 
+Road_User
+├── Driver
+├── Adjuster
+├── Pedestrian
+└── Passenger
+Actions
+├── Moving
+|   ├── Parking
+|   └── Overtaking
+└── Regulating
+Vehicle
+├── Car
+├── Truck
+├── Bicycle
+└──Motorcycle
+Traffic_Control_Device
+|── Sign
+|  ├── Stop_Sign
+|  ├── Yield_Sign
+|  ├── Speed_Limit_Sign
+|  └── Parking_Sign
+└── Traffic_Light
+Transportation_Infrastructure
+├── Road_System
+│   ├── Intersection
+│   └── Bridge 
+└── Road
+    ├── Lane 
+    └── Motorway 

@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules/"
+     xml:base="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Actions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Actions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Adjuster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Adjuster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_user"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Auto_part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Auto_part"/>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Bicycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Bicycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Bridge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Bridge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Car">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_user"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Engine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Engine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Auto_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Intersection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Intersection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Lane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Lane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Light -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Light">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Auto_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Motorcycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Motorcycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Motorway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Motorway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Moving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Moving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Parking_Sign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Parking_Sign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Sign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Passenger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Passenger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_user"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Pedestrian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Pedestrian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_user"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Regulating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Regulating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Transportation_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Transportation_Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_user -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Road_user"/>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Sign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Sign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Traffic_Control_Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Stop_Sign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Stop_Sign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Sign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Traffic_Control_Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Traffic_Control_Device"/>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Traffic_Light -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Traffic_Light">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Traffic_Control_Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Transportation_Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Transportation_Infrastructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Truck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Truck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Vehicle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Wheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Wheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Auto_part"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Yield -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Yield">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/margo/ontologies/2024/9/traffic-rules#Sign"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
